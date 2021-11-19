@@ -20,7 +20,7 @@ limitations under the License.
 
 # itermin
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the minimum value of all [iterated][mdn-iterator-protocol] values.
 
@@ -124,10 +124,10 @@ console.log( 'Min: %d.', m );
 
 ## See Also
 
--   [`@stdlib/stats/iter/max`][@stdlib/stats/iter/max]: compute the maximum value of all iterated values.
--   [`@stdlib/stats/iter/midrange`][@stdlib/stats/iter/midrange]: compute the mid-range of all iterated values.
--   [`@stdlib/stats/iter/mmin`][@stdlib/stats/iter/mmin]: create an iterator which iteratively computes a moving minimum value.
--   [`@stdlib/stats/iter/range`][@stdlib/stats/iter/range]: compute the range of all iterated values.
+-   <span class="package-name">[`@stdlib/stats/iter/max`][@stdlib/stats/iter/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/midrange`][@stdlib/stats/iter/midrange]</span><span class="delimiter">: </span><span class="description">compute the mid-range of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/mmin`][@stdlib/stats/iter/mmin]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving minimum value.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/range`][@stdlib/stats/iter/range]</span><span class="delimiter">: </span><span class="description">compute the range of all iterated values.</span>
 
 </section>
 
@@ -178,8 +178,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-iter-min/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-iter-min?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-iter-min.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-iter-min/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
