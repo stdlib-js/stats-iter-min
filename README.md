@@ -50,7 +50,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@esm/index.mjs';
+import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@v0.1.0-esm/index.mjs';
 ```
 
 #### itermin( iterator )
@@ -97,7 +97,7 @@ var m = itermin( arr );
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@esm/index.mjs';
+import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@v0.1.0-esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
