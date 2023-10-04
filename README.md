@@ -43,30 +43,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-iter-min
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var itermin = require( '@stdlib/stats-iter-min' );
+import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@esm/index.mjs';
 ```
 
 #### itermin( iterator )
@@ -74,7 +58,7 @@ var itermin = require( '@stdlib/stats-iter-min' );
 Computes the minimum value of all [iterated][mdn-iterator-protocol] values.
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
 
 var arr = array2iterator( [ 1.0, -2.0, -3.0, 4.0 ] );
 
@@ -106,9 +90,14 @@ var m = itermin( arr );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var runif = require( '@stdlib/random-iter-uniform' );
-var itermin = require( '@stdlib/stats-iter-min' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
+import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -121,6 +110,10 @@ var m = itermin( rand );
 // returns <number>
 
 console.log( 'Min: %d.', m );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -161,7 +154,7 @@ console.log( 'Min: %d.', m );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -225,13 +218,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats-iter-max
+[@stdlib/stats/iter/max]: https://github.com/stdlib-js/stats-iter-max/tree/esm
 
-[@stdlib/stats/iter/midrange]: https://github.com/stdlib-js/stats-iter-midrange
+[@stdlib/stats/iter/midrange]: https://github.com/stdlib-js/stats-iter-midrange/tree/esm
 
-[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin
+[@stdlib/stats/iter/mmin]: https://github.com/stdlib-js/stats-iter-mmin/tree/esm
 
-[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range
+[@stdlib/stats/iter/range]: https://github.com/stdlib-js/stats-iter-range/tree/esm
 
 <!-- </related-links> -->
 
