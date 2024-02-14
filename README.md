@@ -50,6 +50,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter-min/tags). For example,
+
+```javascript
 import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@v0.2.0-esm/index.mjs';
 ```
 
@@ -97,7 +102,7 @@ var m = itermin( arr );
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@v0.2.0-esm/index.mjs';
+import itermin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-min@esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
